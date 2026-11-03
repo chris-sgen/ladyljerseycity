@@ -1,0 +1,7 @@
+# Unofficial redesign preview of https://ladyljerseycity.com
+# Every page carries a noindex tag, so that this copy does not compete with the business's own site.
+# Crawling is allowed so that crawlers can read that tag.
+User-agent: *
+Allow: /
+
+Sitemap: https://chris-sgen.github.io/ladyljerseycity/sitemap.xml

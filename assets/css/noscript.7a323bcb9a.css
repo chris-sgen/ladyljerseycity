@@ -1,0 +1,5 @@
+.drawer[hidden] { display: block !important; position: static; background: none; }
+.drawer .drawer__panel { position: static; inset: auto; width: 100%; height: auto; min-height: 0; animation: none; box-shadow: none; }
+.drawer [data-drawer-close] { display: none; }
+@media (min-width: 70em) { .drawer[hidden] { display: none !important; } }
+.review__more { display: none !important; }

@@ -1,0 +1,781 @@
+{
+  "preview": {
+    "url": "https://chris-sgen.github.io/ladyljerseycity/",
+    "repository": "https://github.com/chris-sgen/ladyljerseycity",
+    "live": "https://ladyljerseycity.com/",
+    "disclosure": "Unofficial redesign preview of ladyljerseycity.com. Not operated by, affiliated with or endorsed by Lady L Cannabis or its operator, Lady L Cannabis LLC.",
+    "robots": "noindex, nofollow, noarchive, nosnippet, noimageindex"
+  },
+  "snapshot": {
+    "pages": [
+      "2026-11-02T23:50:28.927Z",
+      "2026-11-02T23:53:44.339Z"
+    ],
+    "pictures": "2026-11-03T00:25:46.362Z",
+    "browser": [
+      "2026-11-03T00:26:15.032Z",
+      "2026-11-03T01:33:25.714Z"
+    ],
+    "pagedCopies": "2026-11-03T05:00:11.875Z",
+    "timeZoneOfTheShop": "America/New_York"
+  },
+  "sources": {
+    "livePages": 112,
+    "storeAddressesCrawled": 18,
+    "storeAddressesLinked": 10,
+    "pictures": 99,
+    "generated": {
+      "model": "fal-ai/nano-banana-pro",
+      "at": "2026-11-03T00:38:28.375Z",
+      "files": [
+        "assets/generated/still-night-arch-frame-25872010-1280w.webp",
+        "assets/generated/still-night-arch-frame-25872010-480w.webp",
+        "assets/generated/still-night-arch-frame-25872010-720w.webp",
+        "assets/generated/still-night-arch-frame-25872010-960w.webp",
+        "assets/generated/still-night-arch-frame-32a5e5d4-1280w.webp",
+        "assets/generated/still-night-arch-frame-32a5e5d4-480w.webp",
+        "assets/generated/still-night-arch-frame-32a5e5d4-720w.webp",
+        "assets/generated/still-night-arch-frame-32a5e5d4-960w.webp"
+      ]
+    },
+    "aiPicturesOfTheLiveSite": [
+      {
+        "file": "ChatGPTImageJul12202506_26_14PM.webp",
+        "evidence": "named as made by an AI model"
+      },
+      {
+        "file": "ChatGPTImageJul12202506_26_09PM.webp",
+        "evidence": "named as made by an AI model"
+      },
+      {
+        "file": "lady-l-blog-summer-youth-program.webp",
+        "evidence": "made by an AI model (C2PA)"
+      }
+    ],
+    "typefaces": [
+      "Bricolage Grotesque",
+      "Figtree"
+    ]
+  },
+  "links": {
+    "store": {
+      "links": 4582,
+      "pages": 114
+    },
+    "storeLoyaltySignUp": 114,
+    "shopMenuHost": 40,
+    "alpineiqJoin": 4,
+    "alpineiqWallet": 2,
+    "mapFrames": 115,
+    "liveMapFrames": 58,
+    "liveSiteNofollow": 4703
+  },
+  "changes": {
+    "pages": 114,
+    "files": 493,
+    "robotsTags": 114,
+    "jsonldRemoved": 226,
+    "pictureTagsRemoved": 738,
+    "iconLinksRemoved": 342,
+    "formsInert": 3,
+    "buttonsDisabled": 3,
+    "formPageNotices": 3,
+    "liveTextNotes": [
+      "/terms-of-service/",
+      "/privacy-policy/",
+      "/accessibility/"
+    ],
+    "linksWithMarksTakenOff": 378,
+    "marks": [
+      "gs_lcrp",
+      "ictx",
+      "ie",
+      "oq",
+      "rlz",
+      "sa",
+      "sourceid",
+      "utm_campaign",
+      "utm_medium",
+      "utm_source",
+      "ved"
+    ],
+    "clickCounterLinks": [
+      {
+        "page": "/events/idrrbgl9cyizf93ya4kxy0n28v4ahy/",
+        "from": "lab.alpineiq.com",
+        "to": "happyfarmernj.com"
+      },
+      {
+        "page": "/events/idrrbgl9cyizf93ya4kxy0n28v4ahy/",
+        "from": "lab.alpineiq.com",
+        "to": "shop.ladyljerseycity.com"
+      },
+      {
+        "page": "/events/jersey-city-lgbtq-pride-festival/",
+        "from": "preview.convertkit-mail2.com",
+        "to": "www.jerseycitypride.com"
+      },
+      {
+        "page": "/events/lady-ls-birthday-bash/",
+        "from": "lab.alpineiq.com",
+        "to": "shop.ladyljerseycity.com"
+      }
+    ],
+    "mailMasked": 4,
+    "vendorVouchesRemoved": 8,
+    "emojiAsText": 10,
+    "framesNoReferrer": 115,
+    "canonicalRemoved": [
+      "/404.html",
+      "/search/"
+    ],
+    "notShipped": [
+      ".htaccess",
+      "llms.txt",
+      "robots.txt",
+      "sitemap.xml",
+      "vercel.json",
+      "_headers",
+      "_redirects"
+    ],
+    "filesNothingNamed": [
+      "assets/img/1000066202-61c747c9-1200w.webp",
+      "assets/img/1785163815490-28268ec4-008c-44ab-8623-038be35c3b-a635fc65-300w.webp",
+      "assets/img/20260716-090823-768x1024-cef16ff3-768w.webp",
+      "assets/img/20260716-090823-scaled-fa8ac377-1200w.webp",
+      "assets/img/72-19afcde7-72w.webp",
+      "assets/img/72-1c348300-72w.webp",
+      "assets/img/72-216db0b2-72w.webp",
+      "assets/img/72-9f3a887f-72w.webp",
+      "assets/img/72-cc60371c-72w.webp",
+      "assets/img/archway-stars-scaled-cf4a376c-1200w.webp",
+      "assets/img/bbb-one-year-ig-feed-1024x1024-48307101-1024w.webp",
+      "assets/img/be14c96f-6cb9-4250-ae2d-3eeefbfafe84-52268438-1200w.webp",
+      "assets/img/best-things-to-do-in-jersey-city-waterfront-175a3596-1200w.webp",
+      "assets/img/cannabis-edibles-dosing-chocolate-gummies-aa1b94a5-1200w.webp",
+      "assets/img/cannabis-for-beginners-47557d09-1200w.webp",
+      "assets/img/cannabis-glossary-jersey-city-dispensary-terms-1-946bdcd6-1024w.webp",
+      "assets/img/cannabis-glossary-jersey-city-dispensary-terms-5d96ce3e-1200w.webp",
+      "assets/img/cannabis-trichomes-101-frosty-factories-powering-8f06153f-1200w.webp",
+      "assets/img/chatgptimagejul12202506-26-14pm-6ff23bfb-1200w.webp",
+      "assets/img/img-0908-edit-a825a9d6-1200w.webp",
+      "assets/img/img-4198-scaled-4b430205-1200w.webp",
+      "assets/img/lady-l-blog-summer-youth-program-0b4f5346-1200w.webp",
+      "assets/img/ladyl-iconography-eyelovejc-e1774728637990-c51f60c8-924w.webp",
+      "assets/img/ladyl-iconography-faq-eb656b27-500w.webp",
+      "assets/img/ladyl-iconography-fnl-accessories-34d89cf3-1200w.webp",
+      "assets/img/ladyl-iconography-shoppingcart-83dfc4c0-1200w.webp",
+      "assets/img/ladyl-july4-template-fireworks-v1-819x1024-ebebf817-819w.webp",
+      "assets/img/ladyl-july4-template-fireworks-v1-scaled-97862018-1200w.webp",
+      "assets/img/ladyl-school-supply-blog-cover-c6bb22a4-1086w.webp",
+      "assets/img/ladyl-school-supply-events-cover-1-59fbf948-1086w.webp",
+      "assets/img/ladyl-summerseries1-desktop-2000x1000-v1-opt2-10-9173a1f5-1024w.webp",
+      "assets/img/scorpio-season-cosmic-scorpion-poster-6b083ef6-1200w.webp",
+      "assets/img/site-icon-192.01c66484a4.png",
+      "assets/img/site-icon-32.37f097ae54.png",
+      "assets/img/site-icon-apple.e8128c9eda.png",
+      "assets/img/the-witching-hour-neon-halloween-pop-up-f8f7d4c5-1200w.webp",
+      "assets/img/unsplash-image-d7ufy08ckku-c6850ac0-1200w.webp",
+      "assets/img/what-is-thc-tetrahydrocannabinol-guide-8bf6276e-1200w.webp"
+    ],
+    "commentsRemoved": {
+      "css": 216,
+      "js": 128
+    },
+    "aiLabelled": [
+      "assets/generated/still-night-arch-frame-25872010-1280w.webp",
+      "assets/generated/still-night-arch-frame-25872010-480w.webp",
+      "assets/generated/still-night-arch-frame-25872010-720w.webp",
+      "assets/generated/still-night-arch-frame-25872010-960w.webp",
+      "assets/generated/still-night-arch-frame-32a5e5d4-1280w.webp",
+      "assets/generated/still-night-arch-frame-32a5e5d4-480w.webp",
+      "assets/generated/still-night-arch-frame-32a5e5d4-720w.webp",
+      "assets/generated/still-night-arch-frame-32a5e5d4-960w.webp",
+      "assets/img/chatgptimagejul12202506-26-09pm-1b988baf-1200w.webp",
+      "assets/img/chatgptimagejul12202506-26-09pm-1b988baf-480w.webp",
+      "assets/img/chatgptimagejul12202506-26-09pm-1b988baf-800w.webp",
+      "assets/img/chatgptimagejul12202506-26-14pm-62e0c94b-1024w.webp",
+      "assets/img/chatgptimagejul12202506-26-14pm-62e0c94b-480w.webp",
+      "assets/img/chatgptimagejul12202506-26-14pm-62e0c94b-720w.webp",
+      "assets/img/chatgptimagejul12202506-26-14pm-62e0c94b-960w.webp",
+      "assets/img/chatgptimagejul12202506-26-14pm-cc07e013-240w.webp",
+      "assets/img/chatgptimagejul12202506-26-14pm-cc07e013-360w.webp",
+      "assets/img/chatgptimagejul12202506-26-14pm-cc07e013-540w.webp",
+      "assets/img/chatgptimagejul12202506-26-14pm-cc07e013-720w.webp",
+      "assets/img/lady-l-blog-summer-youth-program-9086cfb4-240w.webp",
+      "assets/img/lady-l-blog-summer-youth-program-9086cfb4-360w.webp",
+      "assets/img/lady-l-blog-summer-youth-program-9086cfb4-540w.webp",
+      "assets/img/lady-l-blog-summer-youth-program-9086cfb4-720w.webp",
+      "assets/img/lady-l-blog-summer-youth-program-a98fbeff-1280w.webp",
+      "assets/img/lady-l-blog-summer-youth-program-a98fbeff-480w.webp",
+      "assets/img/lady-l-blog-summer-youth-program-a98fbeff-720w.webp",
+      "assets/img/lady-l-blog-summer-youth-program-a98fbeff-960w.webp"
+    ],
+    "sitemapUrls": 111,
+    "footerCopyrightLines": 114,
+    "fontLicences": [
+      "assets/fonts/OFL-bricolagegrotesque.txt",
+      "assets/fonts/OFL-figtree.txt"
+    ]
+  },
+  "verification": {
+    "local": {
+      "at": "2026-11-03T08:27:00.929Z",
+      "verdict": "PASS",
+      "count": {
+        "files": 493,
+        "pages": 114,
+        "references": 18682,
+        "localReferences": 11430,
+        "frames": 115,
+        "canonical": 112,
+        "businessForms": 3,
+        "formPages": 3,
+        "newsForms": 0,
+        "searchForms": {
+          "this copy's own search": 1
+        },
+        "liveLinks": 4703,
+        "liveAddressLinks": 3,
+        "listingServiceLinks": 0,
+        "outsideLinks": 1073,
+        "panels": 0,
+        "filmNotes": 0,
+        "videoPages": 0,
+        "webp": 359,
+        "mp4": 0,
+        "woff2": 6,
+        "fontLicences": 2,
+        "textFiles": 125,
+        "indexEntries": 111,
+        "loads": 227,
+        "picturesLoaded": 3062,
+        "loops": 0,
+        "formTrials": 24,
+        "listingNotes": 0,
+        "colourProfiles": 359,
+        "aiLabelled": 27,
+        "svg": 2,
+        "sitemapUrls": 111
+      },
+      "browser": {
+        "pages": 113,
+        "loads": 113,
+        "loopPages": [],
+        "search": {
+          "results": 5,
+          "outside": 0
+        },
+        "notFound": {
+          "status": 404,
+          "css": true,
+          "h1": 1,
+          "broken": 0
+        },
+        "forms": {
+          "summary": {
+            "targets": 3,
+            "trials": 24,
+            "controlsSeen": 6,
+            "enterPressed": 6,
+            "buttonClicked": 6
+          },
+          "results": [
+            {
+              "form": "a plain form (enter)",
+              "scripts": true,
+              "mode": "plain",
+              "sent": [
+                "POST (the local test server)/ladyljerseycity/control-post/"
+              ]
+            },
+            {
+              "form": "a plain form (click)",
+              "scripts": true,
+              "mode": "plain",
+              "sent": [
+                "POST (the local test server)/ladyljerseycity/control-post/"
+              ]
+            },
+            {
+              "rel": "cannabis-guide/index.html",
+              "form": "business",
+              "scripts": true,
+              "mode": "shipped",
+              "enterIn": "email",
+              "clicked": "the form's button",
+              "buttonLive": false,
+              "covered": false,
+              "sent": [],
+              "moved": false,
+              "status": "Disabled in this preview: nothing is sent.",
+              "statusShown": true,
+              "noticeShown": true,
+              "revealed": 0
+            },
+            {
+              "rel": "cannabis-guide/index.html",
+              "form": "business",
+              "scripts": true,
+              "mode": "control",
+              "enterIn": "probe field",
+              "clicked": null,
+              "buttonLive": null,
+              "covered": false,
+              "sent": [
+                "POST (the local test server)/ladyljerseycity/control-post/"
+              ],
+              "moved": true
+            },
+            {
+              "rel": "cannabis-guide/index.html",
+              "form": "business",
+              "scripts": true,
+              "mode": "attributes",
+              "enterIn": "probe field",
+              "clicked": "probe button",
+              "buttonLive": null,
+              "covered": false,
+              "sent": [],
+              "moved": false,
+              "status": "Disabled in this preview: nothing is sent.",
+              "statusShown": true,
+              "noticeShown": true,
+              "revealed": 0
+            },
+            {
+              "rel": "cannabis-guide/index.html",
+              "form": "business",
+              "scripts": true,
+              "mode": "guards",
+              "enterIn": "probe field",
+              "clicked": "the form's button",
+              "buttonLive": false,
+              "covered": false,
+              "sent": [],
+              "moved": false,
+              "status": "Disabled in this preview: nothing is sent.",
+              "statusShown": true,
+              "noticeShown": true,
+              "revealed": 0
+            },
+            {
+              "rel": "contact-us/index.html",
+              "form": "business",
+              "scripts": true,
+              "mode": "shipped",
+              "enterIn": "text",
+              "clicked": "the form's button",
+              "buttonLive": false,
+              "covered": false,
+              "sent": [],
+              "moved": false,
+              "status": "Disabled in this preview: nothing is sent.",
+              "statusShown": true,
+              "noticeShown": true,
+              "revealed": 0
+            },
+            {
+              "rel": "contact-us/index.html",
+              "form": "business",
+              "scripts": true,
+              "mode": "control",
+              "enterIn": "probe field",
+              "clicked": null,
+              "buttonLive": null,
+              "covered": false,
+              "sent": [
+                "POST (the local test server)/ladyljerseycity/control-post/"
+              ],
+              "moved": true
+            },
+            {
+              "rel": "contact-us/index.html",
+              "form": "business",
+              "scripts": true,
+              "mode": "attributes",
+              "enterIn": "probe field",
+              "clicked": "probe button",
+              "buttonLive": null,
+              "covered": false,
+              "sent": [],
+              "moved": false,
+              "status": "Disabled in this preview: nothing is sent.",
+              "statusShown": true,
+              "noticeShown": true,
+              "revealed": 0
+            },
+            {
+              "rel": "contact-us/index.html",
+              "form": "business",
+              "scripts": true,
+              "mode": "guards",
+              "enterIn": "probe field",
+              "clicked": "the form's button",
+              "buttonLive": false,
+              "covered": false,
+              "sent": [],
+              "moved": false,
+              "status": "Disabled in this preview: nothing is sent.",
+              "statusShown": true,
+              "noticeShown": true,
+              "revealed": 0
+            },
+            {
+              "rel": "index.html",
+              "form": "business",
+              "scripts": true,
+              "mode": "shipped",
+              "enterIn": "text",
+              "clicked": "the form's button",
+              "buttonLive": false,
+              "covered": false,
+              "sent": [],
+              "moved": false,
+              "status": "Disabled in this preview: nothing is sent.",
+              "statusShown": true,
+              "noticeShown": true,
+              "revealed": 0
+            },
+            {
+              "rel": "index.html",
+              "form": "business",
+              "scripts": true,
+              "mode": "control",
+              "enterIn": "probe field",
+              "clicked": null,
+              "buttonLive": null,
+              "covered": false,
+              "sent": [
+                "POST (the local test server)/ladyljerseycity/control-post/"
+              ],
+              "moved": true
+            },
+            {
+              "rel": "index.html",
+              "form": "business",
+              "scripts": true,
+              "mode": "attributes",
+              "enterIn": "probe field",
+              "clicked": "probe button",
+              "buttonLive": null,
+              "covered": false,
+              "sent": [],
+              "moved": false,
+              "status": "Disabled in this preview: nothing is sent.",
+              "statusShown": true,
+              "noticeShown": true,
+              "revealed": 0
+            },
+            {
+              "rel": "index.html",
+              "form": "business",
+              "scripts": true,
+              "mode": "guards",
+              "enterIn": "probe field",
+              "clicked": "the form's button",
+              "buttonLive": false,
+              "covered": false,
+              "sent": [],
+              "moved": false,
+              "status": "Disabled in this preview: nothing is sent.",
+              "statusShown": true,
+              "noticeShown": true,
+              "revealed": 0
+            },
+            {
+              "form": "a plain form (enter)",
+              "scripts": false,
+              "mode": "plain",
+              "sent": [
+                "POST (the local test server)/ladyljerseycity/control-post/"
+              ]
+            },
+            {
+              "form": "a plain form (click)",
+              "scripts": false,
+              "mode": "plain",
+              "sent": [
+                "POST (the local test server)/ladyljerseycity/control-post/"
+              ]
+            },
+            {
+              "rel": "cannabis-guide/index.html",
+              "form": "business",
+              "scripts": false,
+              "mode": "shipped",
+              "enterIn": "email",
+              "clicked": "the form's button",
+              "buttonLive": false,
+              "covered": false,
+              "sent": [],
+              "moved": false,
+              "status": "Disabled in this preview: nothing is sent.",
+              "statusShown": true,
+              "noticeShown": true,
+              "revealed": 0
+            },
+            {
+              "rel": "cannabis-guide/index.html",
+              "form": "business",
+              "scripts": false,
+              "mode": "control",
+              "enterIn": "probe field",
+              "clicked": null,
+              "buttonLive": null,
+              "covered": false,
+              "sent": [
+                "POST (the local test server)/ladyljerseycity/control-post/"
+              ],
+              "moved": true
+            },
+            {
+              "rel": "cannabis-guide/index.html",
+              "form": "business",
+              "scripts": false,
+              "mode": "attributes",
+              "enterIn": "probe field",
+              "clicked": "probe button",
+              "buttonLive": null,
+              "covered": false,
+              "sent": [],
+              "moved": false,
+              "status": "Disabled in this preview: nothing is sent.",
+              "statusShown": true,
+              "noticeShown": true,
+              "revealed": 0
+            },
+            {
+              "rel": "cannabis-guide/index.html",
+              "form": "business",
+              "scripts": false,
+              "mode": "guards",
+              "enterIn": "probe field",
+              "clicked": "the form's button",
+              "buttonLive": false,
+              "covered": false,
+              "sent": [],
+              "moved": false,
+              "status": "Disabled in this preview: nothing is sent.",
+              "statusShown": true,
+              "noticeShown": true,
+              "revealed": 0
+            },
+            {
+              "rel": "contact-us/index.html",
+              "form": "business",
+              "scripts": false,
+              "mode": "shipped",
+              "enterIn": "text",
+              "clicked": "the form's button",
+              "buttonLive": false,
+              "covered": false,
+              "sent": [],
+              "moved": false,
+              "status": "Disabled in this preview: nothing is sent.",
+              "statusShown": true,
+              "noticeShown": true,
+              "revealed": 0
+            },
+            {
+              "rel": "contact-us/index.html",
+              "form": "business",
+              "scripts": false,
+              "mode": "control",
+              "enterIn": "probe field",
+              "clicked": null,
+              "buttonLive": null,
+              "covered": false,
+              "sent": [
+                "POST (the local test server)/ladyljerseycity/control-post/"
+              ],
+              "moved": true
+            },
+            {
+              "rel": "contact-us/index.html",
+              "form": "business",
+              "scripts": false,
+              "mode": "attributes",
+              "enterIn": "probe field",
+              "clicked": "probe button",
+              "buttonLive": null,
+              "covered": false,
+              "sent": [],
+              "moved": false,
+              "status": "Disabled in this preview: nothing is sent.",
+              "statusShown": true,
+              "noticeShown": true,
+              "revealed": 0
+            },
+            {
+              "rel": "contact-us/index.html",
+              "form": "business",
+              "scripts": false,
+              "mode": "guards",
+              "enterIn": "probe field",
+              "clicked": "the form's button",
+              "buttonLive": false,
+              "covered": false,
+              "sent": [],
+              "moved": false,
+              "status": "Disabled in this preview: nothing is sent.",
+              "statusShown": true,
+              "noticeShown": true,
+              "revealed": 0
+            },
+            {
+              "rel": "index.html",
+              "form": "business",
+              "scripts": false,
+              "mode": "shipped",
+              "enterIn": "text",
+              "clicked": "the form's button",
+              "buttonLive": false,
+              "covered": false,
+              "sent": [],
+              "moved": false,
+              "status": "Disabled in this preview: nothing is sent.",
+              "statusShown": true,
+              "noticeShown": true,
+              "revealed": 0
+            },
+            {
+              "rel": "index.html",
+              "form": "business",
+              "scripts": false,
+              "mode": "control",
+              "enterIn": "probe field",
+              "clicked": null,
+              "buttonLive": null,
+              "covered": false,
+              "sent": [
+                "POST (the local test server)/ladyljerseycity/control-post/"
+              ],
+              "moved": true
+            },
+            {
+              "rel": "index.html",
+              "form": "business",
+              "scripts": false,
+              "mode": "attributes",
+              "enterIn": "probe field",
+              "clicked": "probe button",
+              "buttonLive": null,
+              "covered": false,
+              "sent": [],
+              "moved": false,
+              "status": "Disabled in this preview: nothing is sent.",
+              "statusShown": true,
+              "noticeShown": true,
+              "revealed": 0
+            },
+            {
+              "rel": "index.html",
+              "form": "business",
+              "scripts": false,
+              "mode": "guards",
+              "enterIn": "probe field",
+              "clicked": "the form's button",
+              "buttonLive": false,
+              "covered": false,
+              "sent": [],
+              "moved": false,
+              "status": "Disabled in this preview: nothing is sent.",
+              "statusShown": true,
+              "noticeShown": true,
+              "revealed": 0
+            }
+          ]
+        },
+        "browser": "Chrome/156.0.8078.74"
+      }
+    },
+    "selftest": {
+      "at": "2026-11-03T08:22:30.483Z",
+      "defects": 118,
+      "plants": 130,
+      "caught": 130,
+      "rules": {
+        "all": 194,
+        "static": 144,
+        "staticExercised": 112,
+        "staticNotExercised": [
+          "a file of a picture this copy does not show",
+          "a wrapper page of the listing vendor is in the tree",
+          "the sign-up box at the foot of the page is not there once",
+          "a stand-in panel of the listings that is hidden",
+          "stand-in panels of the listings: not one for each widget of the private build",
+          "a picture this copy does not show",
+          "a film this copy does not show",
+          "a film note that does not link to the live page",
+          "film notes: not one for each film taken out",
+          "the footer's link to the SEO page is missing, doubled or leads elsewhere",
+          "a listing search without the line that says where it leads",
+          "a link whose address carries a person's data",
+          "the script cannot be read for comments",
+          "the search index cannot be read",
+          "the search index is not a list of entries",
+          "the search index names a picture this copy does not show",
+          "the RIFF size does not match the file",
+          "a box for provenance, place or rights",
+          "a creation time in ",
+          "a description field",
+          "a film without picture data",
+          "the film's header names ",
+          "the font's name records cannot be read",
+          "a picture embedded in a drawing carries a chunk that is not picture data",
+          "a font file that does not name its project",
+          "does not name this copy's sitemap",
+          "missing (robots.txt names it)",
+          "not a sitemap of one address per entry",
+          "lists no address",
+          "missing (the host would answer an unknown address with its own page)",
+          "missing (run preview-docs.mjs)",
+          "does not say where the listing search leads"
+        ],
+        "browser": 20,
+        "formTrials": 12,
+        "publicAddress": 18
+      }
+    },
+    "public": null
+  },
+  "handoffBuild": {
+    "gate": {
+      "verdict": "NOT-READY",
+      "pass": 18,
+      "fail": [
+        "C03",
+        "C04",
+        "C05",
+        "C07",
+        "C16",
+        "C17",
+        "C18",
+        "C20",
+        "C21",
+        "C22",
+        "C29"
+      ],
+      "unproven": []
+    },
+    "sentences": {
+      "checked": 11936,
+      "found": 11916,
+      "notCarried": 20,
+      "missing": 0
+    },
+    "wholePage": {
+      "meanRecall": 0.9991,
+      "pages": 112
+    },
+    "tap": {
+      "verdict": "PASS",
+      "loads": 460
+    },
+    "search": {
+      "verdict": "PASS",
+      "queries": 52
+    }
+  }
+}
