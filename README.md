@@ -20,11 +20,11 @@ listed under *Changes for this public copy*.
 
 | Part | In this preview |
 |---|---|
-| **Forms** | **Disabled.** The 3 forms (on `/cannabis-guide/`, `/contact-us/` and `/`) send nothing, with or without JavaScript; each page says so under its title and above the form. |
+| **Forms** | **Disabled.** The 3 forms (on `/cannabis-guide/`, `/contact-us/` and `/`) send nothing, with or without JavaScript; a line right above each form says so, and a line under its button. |
 | **Online store** | Not copied. The store is the store vendor's application, served by the live host under `ladyljerseycity.com/stores/`. The 4,582 links to it on 114 pages (the header's "Order Now", the Shop menu, the category tiles, the delivery and pickup buttons) open the live store there, and 40 links in the text open pages of the shop's menu at `shop.ladyljerseycity.com` (brands, categories, products, the sale). Anything ordered there is ordered from the shop. |
 | **Loyalty programme** | The footer's "Sign Up For Loyalty" (114 links, one on every page) opens the store's own sign-up at `ladyljerseycity.com/stores/enterprise/lady-l/signup`, as on the live site. 4 links on `/events/jersey-city-lgbtq-pride-festival/` and `/rewards/` open the shop's loyalty sign-up at `lab.alpineiq.com`, and 2 open its members' wallet there, as on the live site. |
 | **Site search** | Works: it searches this copy's pages, on its own `/search/` page. |
-| **Maps** | The 115 map frames are Google's keyless map embed: 58 where the live pages show a map (the shop's address, or the area a page is about), and one in the closing "Location & Hours" band of each page whose live version has none. The shop's address opens Google Maps; the home page's "Get Directions" button opens the online store, as on the live site. |
+| **Maps** | The 115 map frames are Google's keyless map embed: 58 where the live pages show a map (the shop's address, or the area a page is about), and one in the closing "Location & Hours" band of each page whose live version has none (they were blocked in the local test; see *Verification*). The shop's address opens Google Maps; the home page's "Get Directions" button opens the online store, as on the live site. |
 | **Reviews** | The 8 Google reviews of the home page, as the live strip shows them: each reviewer's name, stars and words, in a carousel. The reviewers' profile photos are not shown. "write a review" opens Google. |
 | **Photo feed** | The 8 Instagram posts the live home page shows, each a link to its post on Instagram. |
 | **Phone and e-mail** | The shop's own number and e-mail address (`hi@ladylretail.com`). The live site covers its e-mail addresses with Cloudflare's e-mail protection (a script writes them back in the visitor's browser); this copy writes the shop's address out. The addresses of two people at the shop that the live legal pages print are not written out: a link to the live page stands in their place (4 places on 3 pages). |
@@ -80,10 +80,10 @@ listed under *Changes for this public copy*.
    address to Google Maps among them, and campaign marks): they are taken off. 4 links on
    3 event pages went through e-mail click counters (3 through the shop's,
    1 through another sender's): they lead straight to the address the counter led to. The
-   4,703 links to the live site carry `rel="nofollow noopener"`. Each page's canonical address
+   4,700 links to the live site carry `rel="nofollow noopener"`. Each page's canonical address
    (and the previous and next pages of the blog list) names the page on the live site.
 6. **No on-page banner.** The disclosure is carried by the link-preview tags (2) and by this README. Notes stand
-   on the pages only where a page needs one: the notices of the forms (3 pages) and a note on
+   on the pages only where a page needs one: a line right above each form (3 forms) and a note on
    the live site's `/terms-of-service/`, `/privacy-policy/` and `/accessibility/` that their words are the live site's.
 7. **Not shipped:** `.htaccess`, `llms.txt`, `robots.txt`, `sitemap.xml`, `vercel.json`, `_headers` and `_redirects` and the feed `/category/blog/feed/` of the handoff build (they name the
    business's real addresses or are read only by other hosts), and 38 files nothing in this copy
@@ -97,7 +97,7 @@ listed under *Changes for this public copy*.
 
 ## Verification
 
-The browser figures were measured at the public address, https://chris-sgen.github.io/ladyljerseycity/, on 2026-11-03 08:34 UTC (November 3 at 3:34 AM EST).
+The browser figures were measured on a local server serving this tree under `/ladyljerseycity/` (the hosts the pages embed were blocked there, so the map frames did not load), on 2026-11-03 08:43 UTC (November 3 at 3:43 AM EST); they have not yet been measured at the public address.
 
 | Check | Result |
 |---|---|
@@ -111,8 +111,7 @@ The browser figures were measured at the public address, https://chris-sgen.gith
 | The 113 pages in a browser at 1440 and 390 px, and the not-found page at 1440 | 227 page loads, 3,062 pictures drawn, none broken; no request outside `/ladyljerseycity/` but the map frames' |
 | Site search | The query "hoboken" was answered with 5 results, every one inside `/ladyljerseycity/` |
 | Forms, with scripts on and off | 24 trials on the 3 forms. In the 18 with the form as shipped or with one safeguard alone, Enter was pressed in a field and the button clicked: nothing was sent. In the other 6 every safeguard was taken off and the form was seen to submit, as were 4 plain control forms, so the test can see a submission |
-| The checker itself | `preview-selftest.mjs` planted 118 defects in a copy of this tree; all 130 reports they must give were given. 112 of the 144 rules that read the files were exercised by a plant |
-| At the public address | 113 pages and 87 other files fetched at https://chris-sgen.github.io/ladyljerseycity/: 313 byte-identical to the verified files, 0 different, 0 not answered |
+| The checker itself | `preview-selftest.mjs` planted 118 defects in a copy of this tree; all 129 reports they must give were given. 112 of the 145 rules that read the files were exercised by a plant |
 
 **Why the gate's checks that are not green are not green** (they concern the handoff build):
 
