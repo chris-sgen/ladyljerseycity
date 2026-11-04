@@ -768,7 +768,587 @@
         "publicAddress": 18
       }
     },
-    "public": null
+    "public": {
+      "at": "2026-11-04T04:36:20.919Z",
+      "verdict": "PASS",
+      "live": {
+        "pages": 113,
+        "files": 201,
+        "same": 314,
+        "different": [],
+        "failed": [],
+        "types": {
+          "text/html": 113,
+          "text/css": 3,
+          "font/woff2": 6,
+          "application/json": 2,
+          "text/plain": 3,
+          "video/mp4": 2,
+          "image/svg+xml": 2,
+          "application/javascript": 1,
+          "text/markdown": 2,
+          "application/xml": 1,
+          "image/webp": 179
+        },
+        "notFound": {
+          "status": 404,
+          "isThePage": true
+        },
+        "withoutSlash": {
+          "page": "about-us/",
+          "status": 301,
+          "location": "https://chris-sgen.github.io/ladyljerseycity/about-us/"
+        },
+        "http": {
+          "status": 301,
+          "location": "https://chris-sgen.github.io/ladyljerseycity/"
+        },
+        "capitals": {
+          "asked": "ABOUT-US/",
+          "status": 404
+        },
+        "browser": {
+          "name": "Chrome/156.0.8078.81",
+          "pages": [
+            {
+              "page": "/",
+              "w": 1440,
+              "status": 200,
+              "requests": 57,
+              "loaded": 54,
+              "notes": 0,
+              "panels": 0
+            },
+            {
+              "page": "/",
+              "w": 390,
+              "status": 200,
+              "requests": 58,
+              "loaded": 46,
+              "notes": 0,
+              "panels": 0
+            },
+            {
+              "page": "/contact-us/",
+              "w": 1440,
+              "status": 200,
+              "requests": 21,
+              "loaded": 12,
+              "notes": 0,
+              "panels": 0
+            },
+            {
+              "page": "/contact-us/",
+              "w": 390,
+              "status": 200,
+              "requests": 22,
+              "loaded": 4,
+              "notes": 0,
+              "panels": 0
+            },
+            {
+              "page": "/events/",
+              "w": 1440,
+              "status": 200,
+              "requests": 19,
+              "loaded": 11,
+              "notes": 0,
+              "panels": 0
+            },
+            {
+              "page": "/events/",
+              "w": 390,
+              "status": 200,
+              "requests": 20,
+              "loaded": 3,
+              "notes": 0,
+              "panels": 0
+            },
+            {
+              "page": "/about-us/",
+              "w": 1440,
+              "status": 200,
+              "requests": 23,
+              "loaded": 14,
+              "notes": 0,
+              "panels": 0
+            },
+            {
+              "page": "/about-us/",
+              "w": 390,
+              "status": 200,
+              "requests": 24,
+              "loaded": 6,
+              "notes": 0,
+              "panels": 0
+            }
+          ],
+          "search": {
+            "results": 5,
+            "outside": 0
+          },
+          "notFound": {
+            "status": 404,
+            "css": true,
+            "h1": 1,
+            "broken": 0,
+            "failed": 0
+          },
+          "forms": {
+            "summary": {
+              "targets": 3,
+              "trials": 24,
+              "controlsSeen": 6,
+              "enterPressed": 6,
+              "buttonClicked": 6
+            },
+            "results": [
+              {
+                "form": "a plain form (enter)",
+                "scripts": true,
+                "mode": "plain",
+                "sent": [
+                  "POST (the local test server)/control-post/"
+                ]
+              },
+              {
+                "form": "a plain form (click)",
+                "scripts": true,
+                "mode": "plain",
+                "sent": [
+                  "POST (the local test server)/control-post/"
+                ]
+              },
+              {
+                "rel": "cannabis-guide/index.html",
+                "form": "business",
+                "scripts": true,
+                "mode": "shipped",
+                "enterIn": "email",
+                "clicked": "the form's button",
+                "buttonLive": false,
+                "covered": false,
+                "sent": [],
+                "moved": false,
+                "status": null,
+                "statusShown": false,
+                "noticeShown": false,
+                "revealed": 0
+              },
+              {
+                "rel": "cannabis-guide/index.html",
+                "form": "business",
+                "scripts": true,
+                "mode": "control",
+                "enterIn": "probe field",
+                "clicked": null,
+                "buttonLive": null,
+                "covered": false,
+                "sent": [
+                  "POST (the local test server)/control-post/"
+                ],
+                "moved": true
+              },
+              {
+                "rel": "cannabis-guide/index.html",
+                "form": "business",
+                "scripts": true,
+                "mode": "attributes",
+                "enterIn": "probe field",
+                "clicked": "probe button",
+                "buttonLive": null,
+                "covered": false,
+                "sent": [],
+                "moved": false,
+                "status": null,
+                "statusShown": false,
+                "noticeShown": false,
+                "revealed": 0
+              },
+              {
+                "rel": "cannabis-guide/index.html",
+                "form": "business",
+                "scripts": true,
+                "mode": "guards",
+                "enterIn": "probe field",
+                "clicked": "the form's button",
+                "buttonLive": false,
+                "covered": false,
+                "sent": [],
+                "moved": false,
+                "status": null,
+                "statusShown": false,
+                "noticeShown": false,
+                "revealed": 0
+              },
+              {
+                "rel": "contact-us/index.html",
+                "form": "business",
+                "scripts": true,
+                "mode": "shipped",
+                "enterIn": "text",
+                "clicked": "the form's button",
+                "buttonLive": false,
+                "covered": false,
+                "sent": [],
+                "moved": false,
+                "status": null,
+                "statusShown": false,
+                "noticeShown": false,
+                "revealed": 0
+              },
+              {
+                "rel": "contact-us/index.html",
+                "form": "business",
+                "scripts": true,
+                "mode": "control",
+                "enterIn": "probe field",
+                "clicked": null,
+                "buttonLive": null,
+                "covered": false,
+                "sent": [
+                  "POST (the local test server)/control-post/"
+                ],
+                "moved": true
+              },
+              {
+                "rel": "contact-us/index.html",
+                "form": "business",
+                "scripts": true,
+                "mode": "attributes",
+                "enterIn": "probe field",
+                "clicked": "probe button",
+                "buttonLive": null,
+                "covered": false,
+                "sent": [],
+                "moved": false,
+                "status": null,
+                "statusShown": false,
+                "noticeShown": false,
+                "revealed": 0
+              },
+              {
+                "rel": "contact-us/index.html",
+                "form": "business",
+                "scripts": true,
+                "mode": "guards",
+                "enterIn": "probe field",
+                "clicked": "the form's button",
+                "buttonLive": false,
+                "covered": false,
+                "sent": [],
+                "moved": false,
+                "status": null,
+                "statusShown": false,
+                "noticeShown": false,
+                "revealed": 0
+              },
+              {
+                "rel": "index.html",
+                "form": "business",
+                "scripts": true,
+                "mode": "shipped",
+                "enterIn": "text",
+                "clicked": "the form's button",
+                "buttonLive": false,
+                "covered": false,
+                "sent": [],
+                "moved": false,
+                "status": null,
+                "statusShown": false,
+                "noticeShown": false,
+                "revealed": 0
+              },
+              {
+                "rel": "index.html",
+                "form": "business",
+                "scripts": true,
+                "mode": "control",
+                "enterIn": "probe field",
+                "clicked": null,
+                "buttonLive": null,
+                "covered": false,
+                "sent": [
+                  "POST (the local test server)/control-post/"
+                ],
+                "moved": true
+              },
+              {
+                "rel": "index.html",
+                "form": "business",
+                "scripts": true,
+                "mode": "attributes",
+                "enterIn": "probe field",
+                "clicked": "probe button",
+                "buttonLive": null,
+                "covered": false,
+                "sent": [],
+                "moved": false,
+                "status": null,
+                "statusShown": false,
+                "noticeShown": false,
+                "revealed": 0
+              },
+              {
+                "rel": "index.html",
+                "form": "business",
+                "scripts": true,
+                "mode": "guards",
+                "enterIn": "probe field",
+                "clicked": "the form's button",
+                "buttonLive": false,
+                "covered": false,
+                "sent": [],
+                "moved": false,
+                "status": null,
+                "statusShown": false,
+                "noticeShown": false,
+                "revealed": 0
+              },
+              {
+                "form": "a plain form (enter)",
+                "scripts": false,
+                "mode": "plain",
+                "sent": [
+                  "POST (the local test server)/control-post/"
+                ]
+              },
+              {
+                "form": "a plain form (click)",
+                "scripts": false,
+                "mode": "plain",
+                "sent": [
+                  "POST (the local test server)/control-post/"
+                ]
+              },
+              {
+                "rel": "cannabis-guide/index.html",
+                "form": "business",
+                "scripts": false,
+                "mode": "shipped",
+                "enterIn": "email",
+                "clicked": "the form's button",
+                "buttonLive": false,
+                "covered": false,
+                "sent": [],
+                "moved": false,
+                "status": null,
+                "statusShown": false,
+                "noticeShown": false,
+                "revealed": 0
+              },
+              {
+                "rel": "cannabis-guide/index.html",
+                "form": "business",
+                "scripts": false,
+                "mode": "control",
+                "enterIn": "probe field",
+                "clicked": null,
+                "buttonLive": null,
+                "covered": false,
+                "sent": [
+                  "POST (the local test server)/control-post/"
+                ],
+                "moved": true
+              },
+              {
+                "rel": "cannabis-guide/index.html",
+                "form": "business",
+                "scripts": false,
+                "mode": "attributes",
+                "enterIn": "probe field",
+                "clicked": "probe button",
+                "buttonLive": null,
+                "covered": false,
+                "sent": [],
+                "moved": false,
+                "status": null,
+                "statusShown": false,
+                "noticeShown": false,
+                "revealed": 0
+              },
+              {
+                "rel": "cannabis-guide/index.html",
+                "form": "business",
+                "scripts": false,
+                "mode": "guards",
+                "enterIn": "probe field",
+                "clicked": "the form's button",
+                "buttonLive": false,
+                "covered": false,
+                "sent": [],
+                "moved": false,
+                "status": null,
+                "statusShown": false,
+                "noticeShown": false,
+                "revealed": 0
+              },
+              {
+                "rel": "contact-us/index.html",
+                "form": "business",
+                "scripts": false,
+                "mode": "shipped",
+                "enterIn": "text",
+                "clicked": "the form's button",
+                "buttonLive": false,
+                "covered": false,
+                "sent": [],
+                "moved": false,
+                "status": null,
+                "statusShown": false,
+                "noticeShown": false,
+                "revealed": 0
+              },
+              {
+                "rel": "contact-us/index.html",
+                "form": "business",
+                "scripts": false,
+                "mode": "control",
+                "enterIn": "probe field",
+                "clicked": null,
+                "buttonLive": null,
+                "covered": false,
+                "sent": [
+                  "POST (the local test server)/control-post/"
+                ],
+                "moved": true
+              },
+              {
+                "rel": "contact-us/index.html",
+                "form": "business",
+                "scripts": false,
+                "mode": "attributes",
+                "enterIn": "probe field",
+                "clicked": "probe button",
+                "buttonLive": null,
+                "covered": false,
+                "sent": [],
+                "moved": false,
+                "status": null,
+                "statusShown": false,
+                "noticeShown": false,
+                "revealed": 0
+              },
+              {
+                "rel": "contact-us/index.html",
+                "form": "business",
+                "scripts": false,
+                "mode": "guards",
+                "enterIn": "probe field",
+                "clicked": "the form's button",
+                "buttonLive": false,
+                "covered": false,
+                "sent": [],
+                "moved": false,
+                "status": null,
+                "statusShown": false,
+                "noticeShown": false,
+                "revealed": 0
+              },
+              {
+                "rel": "index.html",
+                "form": "business",
+                "scripts": false,
+                "mode": "shipped",
+                "enterIn": "text",
+                "clicked": "the form's button",
+                "buttonLive": false,
+                "covered": false,
+                "sent": [],
+                "moved": false,
+                "status": null,
+                "statusShown": false,
+                "noticeShown": false,
+                "revealed": 0
+              },
+              {
+                "rel": "index.html",
+                "form": "business",
+                "scripts": false,
+                "mode": "control",
+                "enterIn": "probe field",
+                "clicked": null,
+                "buttonLive": null,
+                "covered": false,
+                "sent": [
+                  "POST (the local test server)/control-post/"
+                ],
+                "moved": true
+              },
+              {
+                "rel": "index.html",
+                "form": "business",
+                "scripts": false,
+                "mode": "attributes",
+                "enterIn": "probe field",
+                "clicked": "probe button",
+                "buttonLive": null,
+                "covered": false,
+                "sent": [],
+                "moved": false,
+                "status": null,
+                "statusShown": false,
+                "noticeShown": false,
+                "revealed": 0
+              },
+              {
+                "rel": "index.html",
+                "form": "business",
+                "scripts": false,
+                "mode": "guards",
+                "enterIn": "probe field",
+                "clicked": "the form's button",
+                "buttonLive": false,
+                "covered": false,
+                "sent": [],
+                "moved": false,
+                "status": null,
+                "statusShown": false,
+                "noticeShown": false,
+                "revealed": 0
+              }
+            ]
+          }
+        }
+      },
+      "count": {
+        "files": 497,
+        "pages": 114,
+        "references": 18709,
+        "localReferences": 11460,
+        "frames": 115,
+        "canonical": 112,
+        "businessForms": 3,
+        "formPages": 3,
+        "newsForms": 0,
+        "searchForms": {
+          "this copy's own search": 1
+        },
+        "liveLinks": 4700,
+        "liveAddressLinks": 0,
+        "listingServiceLinks": 0,
+        "outsideLinks": 1073,
+        "panels": 0,
+        "filmNotes": 0,
+        "videoPages": 0,
+        "webp": 358,
+        "mp4": 2,
+        "woff2": 6,
+        "fontLicences": 2,
+        "textFiles": 128,
+        "indexEntries": 111,
+        "loads": 323,
+        "picturesLoaded": 150,
+        "loops": 0,
+        "formTrials": 24,
+        "listingNotes": 0,
+        "colourProfiles": 358,
+        "aiLabelled": 26,
+        "svg": 2,
+        "sitemapUrls": 111,
+        "mapFramesLoadedPublic": 10
+      }
+    }
   },
   "handoffBuild": {
     "gate": {
