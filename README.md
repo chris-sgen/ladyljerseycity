@@ -25,7 +25,7 @@ listed under *Changes for this public copy*.
 | **Loyalty programme** | The footer's "Sign Up For Loyalty" (114 links, one on every page) opens the store's own sign-up at `ladyljerseycity.com/stores/enterprise/lady-l/signup`, as on the live site. 4 links on `/events/jersey-city-lgbtq-pride-festival/` and `/rewards/` open the shop's loyalty sign-up at `lab.alpineiq.com`, and 2 open its members' wallet there, as on the live site. |
 | **Age question** | Asked on a first visit to any page, in the words of the live store's own pop-up ("Are you at least 21 years old or a valid medical patient?", Yes or No). A yes is kept in the visitor's browser for the session, or for 30 days with "Remember me for 30 days" ticked, under this copy's own name (`ladyljerseycity-age`): it reads no answer given on the live site. A no keeps the question up with the live footer's line "For adults 21+.". The live pop-up's line that continuing agrees to the store's terms is not carried. With scripts off the page shows and the question does not, as on the live store. |
 | **Site search** | Works: it searches this copy's pages, on its own `/search/` page. |
-| **Maps** | The 115 map frames are Google's keyless map embed: 58 where the live pages show a map (the shop's address, or the area a page is about), and one in the closing "Location & Hours" band of each page whose live version has none. The shop's address opens Google Maps; the home page's "Get Directions" button opens the online store, as on the live site. |
+| **Maps** | The 115 map frames are Google's keyless map embed: 58 where the live pages show a map (the shop's address, or the area a page is about), and one in the closing "Location & Hours" band of each page whose live version has none (they were blocked in the local test; see *Verification*). The shop's address opens Google Maps; the home page's "Get Directions" button opens the online store, as on the live site. |
 | **Reviews** | The 8 Google reviews of the home page, as the live strip shows them: each reviewer's name, stars and words, in a carousel. The reviewers' profile photos are not shown. "write a review" opens Google. |
 | **Photo feed** | The 8 Instagram posts the live home page shows, each a link to its post on Instagram. |
 | **Phone and e-mail** | The shop's own number and e-mail address (`hi@ladylretail.com`). The live site covers its e-mail addresses with Cloudflare's e-mail protection (a script writes them back in the visitor's browser); this copy writes the shop's address out. The addresses of two people at the shop that the live legal pages print are not written out: a link to the live page stands in their place (4 places on 3 pages). |
@@ -100,13 +100,13 @@ listed under *Changes for this public copy*.
 
 ## Verification
 
-The browser figures were measured at the public address, https://chris-sgen.github.io/ladyljerseycity/, on 2026-11-04 05:40 UTC (November 4 at 12:40 AM EST).
+The browser figures were measured on a local server serving this tree under `/ladyljerseycity/` (the hosts the pages embed were blocked there, so the map frames did not load), on 2026-11-04 07:40 UTC (November 4 at 2:40 AM EST); they have not yet been measured at the public address.
 
 | Check | Result |
 |---|---|
 | Every sentence of the live pages looked for on its rebuilt page (handoff build) | 11,936 checked: 11,916 found, 20 left out with a recorded reason, 0 missing |
 | Words of each live page found on the whole rebuilt page, the parts left out on purpose set aside (handoff build) | 99.94% mean over 112 pages (words counted, not their order), lowest 98.79%; no page with 12 or more live words missing in a row |
-| Links and controls on phones and tablets (handoff build) | PASS: 460 page loads; 19,326 links and controls measured at 390 and 768 px against a 44 px target, and nothing reaching past the screen |
+| Links and controls on phones and tablets (handoff build) | PASS: 460 page loads; 19,330 links and controls measured at 390 and 768 px against a 44 px target, and nothing reaching past the screen |
 | The site search (handoff build) | PASS: 52 queries, 111 index entries |
 | The pipeline's gate (handoff build) | 18 PASS, 11 FAIL, 0 UNPROVEN; the checks that are not green are explained below |
 | This copy, read again from the shipped files | 494 files besides the three documents (114 of them pages): 0 findings. 11,460 local references, each to a file of this copy |
@@ -115,7 +115,6 @@ The browser figures were measured at the public address, https://chris-sgen.gith
 | Site search | The query "hoboken" was answered with 5 results, every one inside `/ladyljerseycity/` |
 | Forms, with scripts on and off | 24 trials on the 3 forms. In the 18 with the form as shipped or with one safeguard alone, Enter was pressed in a field and the button clicked: nothing was sent. In the other 6 every safeguard was taken off and the form was seen to submit, as were 4 plain control forms, so the test can see a submission |
 | The checker itself | `preview-selftest.mjs` planted 119 defects in a copy of this tree; all 130 reports they must give were given. 114 of the 148 rules that read the files were exercised by a plant |
-| At the public address | 113 pages and 88 other files fetched at https://chris-sgen.github.io/ladyljerseycity/: 314 byte-identical to the verified files, 0 different, 0 not answered |
 
 **Why the gate's checks that are not green are not green** (they concern the handoff build):
 
