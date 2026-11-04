@@ -28,14 +28,13 @@
       "model": "fal-ai/nano-banana-pro",
       "at": "2026-11-03T00:38:28.375Z",
       "files": [
-        "assets/generated/still-night-arch-frame-25872010-1280w.webp",
-        "assets/generated/still-night-arch-frame-25872010-480w.webp",
-        "assets/generated/still-night-arch-frame-25872010-720w.webp",
-        "assets/generated/still-night-arch-frame-25872010-960w.webp",
-        "assets/generated/still-night-arch-frame-32a5e5d4-1280w.webp",
-        "assets/generated/still-night-arch-frame-32a5e5d4-480w.webp",
-        "assets/generated/still-night-arch-frame-32a5e5d4-720w.webp",
-        "assets/generated/still-night-arch-frame-32a5e5d4-960w.webp"
+        "assets/generated/loop-night-arch-poster-92b6eb50-1152w.webp",
+        "assets/generated/loop-night-arch-poster-92b6eb50-480w.webp",
+        "assets/generated/loop-night-arch-poster-92b6eb50-768w.webp",
+        "assets/generated/loop-night-arch-poster-cfed7d04-1280w.webp",
+        "assets/generated/loop-night-arch-poster-cfed7d04-1440w.webp",
+        "assets/generated/loop-night-arch-poster-cfed7d04-480w.webp",
+        "assets/generated/loop-night-arch-poster-cfed7d04-768w.webp"
       ]
     },
     "aiPicturesOfTheLiveSite": [
@@ -72,7 +71,7 @@
   },
   "changes": {
     "pages": 114,
-    "files": 493,
+    "files": 494,
     "robotsTags": 114,
     "jsonldRemoved": 226,
     "pictureTagsRemoved": 738,
@@ -179,18 +178,17 @@
       "assets/img/what-is-thc-tetrahydrocannabinol-guide-8bf6276e-1200w.webp"
     ],
     "commentsRemoved": {
-      "css": 216,
+      "css": 243,
       "js": 128
     },
     "aiLabelled": [
-      "assets/generated/still-night-arch-frame-25872010-1280w.webp",
-      "assets/generated/still-night-arch-frame-25872010-480w.webp",
-      "assets/generated/still-night-arch-frame-25872010-720w.webp",
-      "assets/generated/still-night-arch-frame-25872010-960w.webp",
-      "assets/generated/still-night-arch-frame-32a5e5d4-1280w.webp",
-      "assets/generated/still-night-arch-frame-32a5e5d4-480w.webp",
-      "assets/generated/still-night-arch-frame-32a5e5d4-720w.webp",
-      "assets/generated/still-night-arch-frame-32a5e5d4-960w.webp",
+      "assets/generated/loop-night-arch-poster-92b6eb50-1152w.webp",
+      "assets/generated/loop-night-arch-poster-92b6eb50-480w.webp",
+      "assets/generated/loop-night-arch-poster-92b6eb50-768w.webp",
+      "assets/generated/loop-night-arch-poster-cfed7d04-1280w.webp",
+      "assets/generated/loop-night-arch-poster-cfed7d04-1440w.webp",
+      "assets/generated/loop-night-arch-poster-cfed7d04-480w.webp",
+      "assets/generated/loop-night-arch-poster-cfed7d04-768w.webp",
       "assets/img/chatgptimagejul12202506-26-09pm-1b988baf-1200w.webp",
       "assets/img/chatgptimagejul12202506-26-09pm-1b988baf-480w.webp",
       "assets/img/chatgptimagejul12202506-26-09pm-1b988baf-800w.webp",
@@ -220,13 +218,13 @@
   },
   "verification": {
     "local": {
-      "at": "2026-11-03T08:57:30.909Z",
+      "at": "2026-11-04T04:29:27.654Z",
       "verdict": "PASS",
       "count": {
-        "files": 493,
+        "files": 494,
         "pages": 114,
-        "references": 18679,
-        "localReferences": 11430,
+        "references": 18709,
+        "localReferences": 11460,
         "frames": 115,
         "canonical": 112,
         "businessForms": 3,
@@ -242,26 +240,56 @@
         "panels": 0,
         "filmNotes": 0,
         "videoPages": 0,
-        "webp": 359,
-        "mp4": 0,
+        "webp": 358,
+        "mp4": 2,
         "woff2": 6,
         "fontLicences": 2,
         "textFiles": 125,
         "indexEntries": 111,
         "loads": 227,
         "picturesLoaded": 3062,
-        "loops": 0,
+        "loops": 29,
         "formTrials": 24,
         "listingNotes": 0,
-        "colourProfiles": 359,
-        "aiLabelled": 27,
+        "colourProfiles": 358,
+        "aiLabelled": 26,
         "svg": 2,
         "sitemapUrls": 111
       },
       "browser": {
         "pages": 113,
         "loads": 113,
-        "loopPages": [],
+        "loopPages": [
+          "blog/lady-l-joins-west-side-jersey-city-to-celebrate-bowl-burger-bistros-1st-birthday/index.html",
+          "community/index.html",
+          "contact-us/index.html",
+          "events/10-min-complimentary-reiki-with-jenn/index.html",
+          "events/3-acres-holiday-night-market/index.html",
+          "events/bliss-co-wonderprett-oct-pop-up/index.html",
+          "events/double-point-tuesday/index.html",
+          "events/edie-parker-pop-up/index.html",
+          "events/ggs-garden-3rd-annual-toy-drive/index.html",
+          "events/give-back-all-year-lady-l-school-supply-donation-drive/index.html",
+          "events/grand-opening/index.html",
+          "events/green-week/index.html",
+          "events/halloween-costume-contest-2025/index.html",
+          "events/high-point-buzz-bus-returns/index.html",
+          "events/idrrbgl9cyizf93ya4kxy0n28v4ahy/index.html",
+          "events/jersey-city-lgbtq-pride-festival/index.html",
+          "events/karls-birthday/index.html",
+          "events/lady-l-at-bowl-burger-bistros-first-birthday/index.html",
+          "events/lady-ls-birthday-bash/index.html",
+          "events/northlake-supply-pop-up/index.html",
+          "events/november-customers-birthday-celebration-with-high-point-buzz/index.html",
+          "events/self-care-sunday/index.html",
+          "events/tarot-with-hailey-usher-in-2025-set-intentions-for-2026/index.html",
+          "events/taste-the-rainbow-with-lady-l-at-jc-pride-🌈✨/index.html",
+          "events/terpene-pop-up-bar/index.html",
+          "events/terrascend-pop-up-and-special-promotion/index.html",
+          "events/the-witching-hour-glass-meadows-x-lady-l-halloween-pop-up/index.html",
+          "events/west-side-morning-glory-vol-1-coffee-cannabis-community-before-work/index.html",
+          "refer-a-friend/index.html"
+        ],
         "search": {
           "results": 5,
           "outside": 0
@@ -687,11 +715,11 @@
             }
           ]
         },
-        "browser": "Chrome/156.0.8078.74"
+        "browser": "Chrome/156.0.8078.81"
       }
     },
     "selftest": {
-      "at": "2026-11-03T08:55:16.486Z",
+      "at": "2026-11-04T04:25:40.040Z",
       "defects": 118,
       "plants": 129,
       "caught": 129,
@@ -740,586 +768,7 @@
         "publicAddress": 18
       }
     },
-    "public": {
-      "at": "2026-11-03T09:04:35.274Z",
-      "verdict": "PASS",
-      "live": {
-        "pages": 113,
-        "files": 200,
-        "same": 313,
-        "different": [],
-        "failed": [],
-        "types": {
-          "text/html": 113,
-          "text/css": 3,
-          "font/woff2": 6,
-          "text/plain": 3,
-          "application/json": 2,
-          "application/javascript": 1,
-          "image/svg+xml": 2,
-          "text/markdown": 2,
-          "image/webp": 180,
-          "application/xml": 1
-        },
-        "notFound": {
-          "status": 404,
-          "isThePage": true
-        },
-        "withoutSlash": {
-          "page": "about-us/",
-          "status": 301,
-          "location": "https://chris-sgen.github.io/ladyljerseycity/about-us/"
-        },
-        "http": {
-          "status": 301,
-          "location": "https://chris-sgen.github.io/ladyljerseycity/"
-        },
-        "capitals": {
-          "asked": "ABOUT-US/",
-          "status": 404
-        },
-        "browser": {
-          "name": "Chrome/156.0.8078.74",
-          "pages": [
-            {
-              "page": "/",
-              "w": 1440,
-              "status": 200,
-              "requests": 57,
-              "loaded": 54,
-              "notes": 0,
-              "panels": 0
-            },
-            {
-              "page": "/",
-              "w": 390,
-              "status": 200,
-              "requests": 58,
-              "loaded": 46,
-              "notes": 0,
-              "panels": 0
-            },
-            {
-              "page": "/contact-us/",
-              "w": 1440,
-              "status": 200,
-              "requests": 20,
-              "loaded": 12,
-              "notes": 0,
-              "panels": 0
-            },
-            {
-              "page": "/contact-us/",
-              "w": 390,
-              "status": 200,
-              "requests": 21,
-              "loaded": 4,
-              "notes": 0,
-              "panels": 0
-            },
-            {
-              "page": "/events/",
-              "w": 1440,
-              "status": 200,
-              "requests": 19,
-              "loaded": 11,
-              "notes": 0,
-              "panels": 0
-            },
-            {
-              "page": "/events/",
-              "w": 390,
-              "status": 200,
-              "requests": 20,
-              "loaded": 3,
-              "notes": 0,
-              "panels": 0
-            },
-            {
-              "page": "/about-us/",
-              "w": 1440,
-              "status": 200,
-              "requests": 23,
-              "loaded": 14,
-              "notes": 0,
-              "panels": 0
-            },
-            {
-              "page": "/about-us/",
-              "w": 390,
-              "status": 200,
-              "requests": 24,
-              "loaded": 6,
-              "notes": 0,
-              "panels": 0
-            }
-          ],
-          "search": {
-            "results": 5,
-            "outside": 0
-          },
-          "notFound": {
-            "status": 404,
-            "css": true,
-            "h1": 1,
-            "broken": 0,
-            "failed": 0
-          },
-          "forms": {
-            "summary": {
-              "targets": 3,
-              "trials": 24,
-              "controlsSeen": 6,
-              "enterPressed": 6,
-              "buttonClicked": 6
-            },
-            "results": [
-              {
-                "form": "a plain form (enter)",
-                "scripts": true,
-                "mode": "plain",
-                "sent": [
-                  "POST (the local test server)/control-post/"
-                ]
-              },
-              {
-                "form": "a plain form (click)",
-                "scripts": true,
-                "mode": "plain",
-                "sent": [
-                  "POST (the local test server)/control-post/"
-                ]
-              },
-              {
-                "rel": "cannabis-guide/index.html",
-                "form": "business",
-                "scripts": true,
-                "mode": "shipped",
-                "enterIn": "email",
-                "clicked": "the form's button",
-                "buttonLive": false,
-                "covered": false,
-                "sent": [],
-                "moved": false,
-                "status": null,
-                "statusShown": false,
-                "noticeShown": false,
-                "revealed": 0
-              },
-              {
-                "rel": "cannabis-guide/index.html",
-                "form": "business",
-                "scripts": true,
-                "mode": "control",
-                "enterIn": "probe field",
-                "clicked": null,
-                "buttonLive": null,
-                "covered": false,
-                "sent": [
-                  "POST (the local test server)/control-post/"
-                ],
-                "moved": true
-              },
-              {
-                "rel": "cannabis-guide/index.html",
-                "form": "business",
-                "scripts": true,
-                "mode": "attributes",
-                "enterIn": "probe field",
-                "clicked": "probe button",
-                "buttonLive": null,
-                "covered": false,
-                "sent": [],
-                "moved": false,
-                "status": null,
-                "statusShown": false,
-                "noticeShown": false,
-                "revealed": 0
-              },
-              {
-                "rel": "cannabis-guide/index.html",
-                "form": "business",
-                "scripts": true,
-                "mode": "guards",
-                "enterIn": "probe field",
-                "clicked": "the form's button",
-                "buttonLive": false,
-                "covered": false,
-                "sent": [],
-                "moved": false,
-                "status": null,
-                "statusShown": false,
-                "noticeShown": false,
-                "revealed": 0
-              },
-              {
-                "rel": "contact-us/index.html",
-                "form": "business",
-                "scripts": true,
-                "mode": "shipped",
-                "enterIn": "text",
-                "clicked": "the form's button",
-                "buttonLive": false,
-                "covered": false,
-                "sent": [],
-                "moved": false,
-                "status": null,
-                "statusShown": false,
-                "noticeShown": false,
-                "revealed": 0
-              },
-              {
-                "rel": "contact-us/index.html",
-                "form": "business",
-                "scripts": true,
-                "mode": "control",
-                "enterIn": "probe field",
-                "clicked": null,
-                "buttonLive": null,
-                "covered": false,
-                "sent": [
-                  "POST (the local test server)/control-post/"
-                ],
-                "moved": true
-              },
-              {
-                "rel": "contact-us/index.html",
-                "form": "business",
-                "scripts": true,
-                "mode": "attributes",
-                "enterIn": "probe field",
-                "clicked": "probe button",
-                "buttonLive": null,
-                "covered": false,
-                "sent": [],
-                "moved": false,
-                "status": null,
-                "statusShown": false,
-                "noticeShown": false,
-                "revealed": 0
-              },
-              {
-                "rel": "contact-us/index.html",
-                "form": "business",
-                "scripts": true,
-                "mode": "guards",
-                "enterIn": "probe field",
-                "clicked": "the form's button",
-                "buttonLive": false,
-                "covered": false,
-                "sent": [],
-                "moved": false,
-                "status": null,
-                "statusShown": false,
-                "noticeShown": false,
-                "revealed": 0
-              },
-              {
-                "rel": "index.html",
-                "form": "business",
-                "scripts": true,
-                "mode": "shipped",
-                "enterIn": "text",
-                "clicked": "the form's button",
-                "buttonLive": false,
-                "covered": false,
-                "sent": [],
-                "moved": false,
-                "status": null,
-                "statusShown": false,
-                "noticeShown": false,
-                "revealed": 0
-              },
-              {
-                "rel": "index.html",
-                "form": "business",
-                "scripts": true,
-                "mode": "control",
-                "enterIn": "probe field",
-                "clicked": null,
-                "buttonLive": null,
-                "covered": false,
-                "sent": [
-                  "POST (the local test server)/control-post/"
-                ],
-                "moved": true
-              },
-              {
-                "rel": "index.html",
-                "form": "business",
-                "scripts": true,
-                "mode": "attributes",
-                "enterIn": "probe field",
-                "clicked": "probe button",
-                "buttonLive": null,
-                "covered": false,
-                "sent": [],
-                "moved": false,
-                "status": null,
-                "statusShown": false,
-                "noticeShown": false,
-                "revealed": 0
-              },
-              {
-                "rel": "index.html",
-                "form": "business",
-                "scripts": true,
-                "mode": "guards",
-                "enterIn": "probe field",
-                "clicked": "the form's button",
-                "buttonLive": false,
-                "covered": false,
-                "sent": [],
-                "moved": false,
-                "status": null,
-                "statusShown": false,
-                "noticeShown": false,
-                "revealed": 0
-              },
-              {
-                "form": "a plain form (enter)",
-                "scripts": false,
-                "mode": "plain",
-                "sent": [
-                  "POST (the local test server)/control-post/"
-                ]
-              },
-              {
-                "form": "a plain form (click)",
-                "scripts": false,
-                "mode": "plain",
-                "sent": [
-                  "POST (the local test server)/control-post/"
-                ]
-              },
-              {
-                "rel": "cannabis-guide/index.html",
-                "form": "business",
-                "scripts": false,
-                "mode": "shipped",
-                "enterIn": "email",
-                "clicked": "the form's button",
-                "buttonLive": false,
-                "covered": false,
-                "sent": [],
-                "moved": false,
-                "status": null,
-                "statusShown": false,
-                "noticeShown": false,
-                "revealed": 0
-              },
-              {
-                "rel": "cannabis-guide/index.html",
-                "form": "business",
-                "scripts": false,
-                "mode": "control",
-                "enterIn": "probe field",
-                "clicked": null,
-                "buttonLive": null,
-                "covered": false,
-                "sent": [
-                  "POST (the local test server)/control-post/"
-                ],
-                "moved": true
-              },
-              {
-                "rel": "cannabis-guide/index.html",
-                "form": "business",
-                "scripts": false,
-                "mode": "attributes",
-                "enterIn": "probe field",
-                "clicked": "probe button",
-                "buttonLive": null,
-                "covered": false,
-                "sent": [],
-                "moved": false,
-                "status": null,
-                "statusShown": false,
-                "noticeShown": false,
-                "revealed": 0
-              },
-              {
-                "rel": "cannabis-guide/index.html",
-                "form": "business",
-                "scripts": false,
-                "mode": "guards",
-                "enterIn": "probe field",
-                "clicked": "the form's button",
-                "buttonLive": false,
-                "covered": false,
-                "sent": [],
-                "moved": false,
-                "status": null,
-                "statusShown": false,
-                "noticeShown": false,
-                "revealed": 0
-              },
-              {
-                "rel": "contact-us/index.html",
-                "form": "business",
-                "scripts": false,
-                "mode": "shipped",
-                "enterIn": "text",
-                "clicked": "the form's button",
-                "buttonLive": false,
-                "covered": false,
-                "sent": [],
-                "moved": false,
-                "status": null,
-                "statusShown": false,
-                "noticeShown": false,
-                "revealed": 0
-              },
-              {
-                "rel": "contact-us/index.html",
-                "form": "business",
-                "scripts": false,
-                "mode": "control",
-                "enterIn": "probe field",
-                "clicked": null,
-                "buttonLive": null,
-                "covered": false,
-                "sent": [
-                  "POST (the local test server)/control-post/"
-                ],
-                "moved": true
-              },
-              {
-                "rel": "contact-us/index.html",
-                "form": "business",
-                "scripts": false,
-                "mode": "attributes",
-                "enterIn": "probe field",
-                "clicked": "probe button",
-                "buttonLive": null,
-                "covered": false,
-                "sent": [],
-                "moved": false,
-                "status": null,
-                "statusShown": false,
-                "noticeShown": false,
-                "revealed": 0
-              },
-              {
-                "rel": "contact-us/index.html",
-                "form": "business",
-                "scripts": false,
-                "mode": "guards",
-                "enterIn": "probe field",
-                "clicked": "the form's button",
-                "buttonLive": false,
-                "covered": false,
-                "sent": [],
-                "moved": false,
-                "status": null,
-                "statusShown": false,
-                "noticeShown": false,
-                "revealed": 0
-              },
-              {
-                "rel": "index.html",
-                "form": "business",
-                "scripts": false,
-                "mode": "shipped",
-                "enterIn": "text",
-                "clicked": "the form's button",
-                "buttonLive": false,
-                "covered": false,
-                "sent": [],
-                "moved": false,
-                "status": null,
-                "statusShown": false,
-                "noticeShown": false,
-                "revealed": 0
-              },
-              {
-                "rel": "index.html",
-                "form": "business",
-                "scripts": false,
-                "mode": "control",
-                "enterIn": "probe field",
-                "clicked": null,
-                "buttonLive": null,
-                "covered": false,
-                "sent": [
-                  "POST (the local test server)/control-post/"
-                ],
-                "moved": true
-              },
-              {
-                "rel": "index.html",
-                "form": "business",
-                "scripts": false,
-                "mode": "attributes",
-                "enterIn": "probe field",
-                "clicked": "probe button",
-                "buttonLive": null,
-                "covered": false,
-                "sent": [],
-                "moved": false,
-                "status": null,
-                "statusShown": false,
-                "noticeShown": false,
-                "revealed": 0
-              },
-              {
-                "rel": "index.html",
-                "form": "business",
-                "scripts": false,
-                "mode": "guards",
-                "enterIn": "probe field",
-                "clicked": "the form's button",
-                "buttonLive": false,
-                "covered": false,
-                "sent": [],
-                "moved": false,
-                "status": null,
-                "statusShown": false,
-                "noticeShown": false,
-                "revealed": 0
-              }
-            ]
-          }
-        }
-      },
-      "count": {
-        "files": 496,
-        "pages": 114,
-        "references": 18679,
-        "localReferences": 11430,
-        "frames": 115,
-        "canonical": 112,
-        "businessForms": 3,
-        "formPages": 3,
-        "newsForms": 0,
-        "searchForms": {
-          "this copy's own search": 1
-        },
-        "liveLinks": 4700,
-        "liveAddressLinks": 0,
-        "listingServiceLinks": 0,
-        "outsideLinks": 1073,
-        "panels": 0,
-        "filmNotes": 0,
-        "videoPages": 0,
-        "webp": 359,
-        "mp4": 0,
-        "woff2": 6,
-        "fontLicences": 2,
-        "textFiles": 128,
-        "indexEntries": 111,
-        "loads": 322,
-        "picturesLoaded": 150,
-        "loops": 0,
-        "formTrials": 24,
-        "listingNotes": 0,
-        "colourProfiles": 359,
-        "aiLabelled": 27,
-        "svg": 2,
-        "sitemapUrls": 111,
-        "mapFramesLoadedPublic": 10
-      }
-    }
+    "public": null
   },
   "handoffBuild": {
     "gate": {

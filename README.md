@@ -24,7 +24,7 @@ listed under *Changes for this public copy*.
 | **Online store** | Not copied. The store is the store vendor's application, served by the live host under `ladyljerseycity.com/stores/`. The 4,582 links to it on 114 pages (the header's "Order Now", the Shop menu, the category tiles, the delivery and pickup buttons) open the live store there, and 40 links in the text open pages of the shop's menu at `shop.ladyljerseycity.com` (brands, categories, products, the sale). Anything ordered there is ordered from the shop. |
 | **Loyalty programme** | The footer's "Sign Up For Loyalty" (114 links, one on every page) opens the store's own sign-up at `ladyljerseycity.com/stores/enterprise/lady-l/signup`, as on the live site. 4 links on `/events/jersey-city-lgbtq-pride-festival/` and `/rewards/` open the shop's loyalty sign-up at `lab.alpineiq.com`, and 2 open its members' wallet there, as on the live site. |
 | **Site search** | Works: it searches this copy's pages, on its own `/search/` page. |
-| **Maps** | The 115 map frames are Google's keyless map embed: 58 where the live pages show a map (the shop's address, or the area a page is about), and one in the closing "Location & Hours" band of each page whose live version has none. The shop's address opens Google Maps; the home page's "Get Directions" button opens the online store, as on the live site. |
+| **Maps** | The 115 map frames are Google's keyless map embed: 58 where the live pages show a map (the shop's address, or the area a page is about), and one in the closing "Location & Hours" band of each page whose live version has none (they were blocked in the local test; see *Verification*). The shop's address opens Google Maps; the home page's "Get Directions" button opens the online store, as on the live site. |
 | **Reviews** | The 8 Google reviews of the home page, as the live strip shows them: each reviewer's name, stars and words, in a carousel. The reviewers' profile photos are not shown. "write a review" opens Google. |
 | **Photo feed** | The 8 Instagram posts the live home page shows, each a link to its post on Instagram. |
 | **Phone and e-mail** | The shop's own number and e-mail address (`hi@ladylretail.com`). The live site covers its e-mail addresses with Cloudflare's e-mail protection (a script writes them back in the visitor's browser); this copy writes the shop's address out. The addresses of two people at the shop that the live legal pages print are not written out: a link to the live page stands in their place (4 places on 3 pages). |
@@ -35,8 +35,8 @@ listed under *Changes for this public copy*.
 |---|---|
 | **Words, addresses, hours, prices, reviews, links** | The live site's, as its pages printed them. The live stylesheet shows every heading and button in capitals, so its editors typed them in any case ("Our core valueS", "order NOW"); here every heading and button label is set in title case, each word in the site's own spelling of it. The emoji the live pages show as pictures of Google's emoji set are shown as emoji characters. |
 | **Pictures** | The live pages' own: 114 pictures (each in one or more sizes), among them two stock photographs. See *Pictures*. |
-| **Generated picture** | One picture made for this redesign with an image model (`fal-ai/nano-banana-pro` at fal.ai): a night sky with yellow sparkles in the colours of the shop's archway art. It stands at the opening of the 29 pages that have no picture at their opening on the live site (most of them events). It shows no product, place or person. |
-| **Visual design** | New ("Archway"), drawn from the shop's own archway art (the arch, its coloured bands, the sparkles, the checkerboard), in the live site's colours. |
+| **Generated picture and film** | One picture made for this redesign with an image model (`fal-ai/nano-banana-pro` at fal.ai): a night sky with yellow sparkles in the colours of the shop's archway art. From it, a silent five-second film made with a video model (`fal-ai/kling-video/o3/pro/image-to-video` at fal.ai), the picture as its first and last frame, in which the sparkles twinkle; it plays on a loop with no controls, and the picture is its poster (all a visitor sees who asks for reduced motion or saves data). It stands at the opening of the 29 pages that have no picture at their opening on the live site (most of them events). It shows no product, place or person. |
+| **Visual design** | New ("Archway"), drawn from the shop's own archway art (the arch, its coloured bands, the sparkles, the checkerboard), in the live site's colours, with a layer of glass over it: the cards, boxes and forms are frosted panes over a still field of the brand's colours, and the header, the menus and the opening of each page blur what passes under them. Every line of text was measured against what is drawn behind it, at four screen widths: none is under 4.5:1. |
 | **Typefaces** | Bricolage Grotesque and Figtree, under the SIL Open Font License 1.1 (the licence texts are in `assets/fonts/`). |
 | **Code** | Written for the redesign: three stylesheets (the site's, one for browsers without JavaScript, and this copy's notes) and one script. No WordPress, no page builder, no form plugin, no analytics or tracking script. |
 
@@ -49,8 +49,10 @@ listed under *Changes for this public copy*.
 - **Pictures made by AI models.** 3 of the live site's own pictures are marked as made by AI models: 1 by a C2PA
   record of Google's that names it as made by a generative model, and 2 by the file names ChatGPT gives
   its images. Their files in this copy, and the files of the generated picture above, carry the IPTC label of a
-  picture made by a generative model (`DigitalSourceType: trainedAlgorithmicMedia`, in an XMP packet): 27
+  picture made by a generative model (`DigitalSourceType: trainedAlgorithmicMedia`, in an XMP packet): 26
   files. No other picture file carries any metadata but the colour profile its encoder writes.
+- **The generated film.** Its 2 files (two sizes) carry no metadata at all: no tag, no provenance box, no creation
+  time. This README and `PROVENANCE.md` are its label: it was made with an AI video model (see above).
 - **A section the live site does not show.** The live home page's markup holds a section "Why Choose Us" that
   the live stylesheet hides at every screen width. It is not shown here either.
 
@@ -97,7 +99,7 @@ listed under *Changes for this public copy*.
 
 ## Verification
 
-The browser figures were measured at the public address, https://chris-sgen.github.io/ladyljerseycity/, on 2026-11-03 09:04 UTC (November 3 at 4:04 AM EST).
+The browser figures were measured on a local server serving this tree under `/ladyljerseycity/` (the hosts the pages embed were blocked there, so the map frames did not load), on 2026-11-04 04:29 UTC (November 3 at 11:29 PM EST); they have not yet been measured at the public address.
 
 | Check | Result |
 |---|---|
@@ -106,13 +108,12 @@ The browser figures were measured at the public address, https://chris-sgen.gith
 | Links and controls on phones and tablets (handoff build) | PASS: 460 page loads; 19,326 links and controls measured at 390 and 768 px against a 44 px target, and nothing reaching past the screen |
 | The site search (handoff build) | PASS: 52 queries, 111 index entries |
 | The pipeline's gate (handoff build) | 18 PASS, 11 FAIL, 0 UNPROVEN; the checks that are not green are explained below |
-| This copy, read again from the shipped files | 493 files besides the three documents (114 of them pages): 0 findings. 11,430 local references, each to a file of this copy |
-| Binary files read for metadata | 359 WebP (27 with the AI label above, the others with only the encoder's colour profile), 2 SVG (no script, no metadata; the one embedded PNG holds picture data only), 6 WOFF2 (no metadata block) |
+| This copy, read again from the shipped files | 494 files besides the three documents (114 of them pages): 0 findings. 11,460 local references, each to a file of this copy |
+| Binary files read for metadata | 358 WebP (26 with the AI label above, the others with only the encoder's colour profile), 2 SVG (no script, no metadata; the one embedded PNG holds picture data only), 6 WOFF2 (no metadata block) |
 | The 113 pages in a browser at 1440 and 390 px, and the not-found page at 1440 | 227 page loads, 3,062 pictures drawn, none broken; no request outside `/ladyljerseycity/` but the map frames' |
 | Site search | The query "hoboken" was answered with 5 results, every one inside `/ladyljerseycity/` |
 | Forms, with scripts on and off | 24 trials on the 3 forms. In the 18 with the form as shipped or with one safeguard alone, Enter was pressed in a field and the button clicked: nothing was sent. In the other 6 every safeguard was taken off and the form was seen to submit, as were 4 plain control forms, so the test can see a submission |
 | The checker itself | `preview-selftest.mjs` planted 118 defects in a copy of this tree; all 129 reports they must give were given. 113 of the 147 rules that read the files were exercised by a plant |
-| At the public address | 113 pages and 87 other files fetched at https://chris-sgen.github.io/ladyljerseycity/: 313 byte-identical to the verified files, 0 different, 0 not answered |
 
 **Why the gate's checks that are not green are not green** (they concern the handoff build):
 
