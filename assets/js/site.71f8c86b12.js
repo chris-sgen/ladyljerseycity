@@ -8,6 +8,43 @@
   var sheet = $('link[rel="stylesheet"][href*="assets/css/"]');
   var siteRoot = sheet ? sheet.href.slice(0, sheet.href.indexOf('assets/css/')) : '/';
   var fromRoot = function (u) { return u && u.charAt(0) === '/' ? siteRoot + u.slice(1) : u; };
+  (function () {
+  var gate = $('#agegate');
+  if (gate) {
+    var gKey = gate.getAttribute('data-age-key'), gDays = Number(gate.getAttribute('data-age-days')) || 30;
+    var answered = function () {
+      try { if (sessionStorage.getItem(gKey) === 'yes') return true; } catch (e) {   }
+      try { var until = Number(localStorage.getItem(gKey)); if (until && until > Date.now()) return true; if (until) localStorage.removeItem(gKey); } catch (e) {   }
+      return false;
+    };
+    if (!answered()) {
+      var behind = $$('body > *').filter(function (el) { return el !== gate && el.tagName !== 'SCRIPT'; });
+      var before = doc.activeElement;
+      behind.forEach(function (el) { el.setAttribute('inert', ''); });
+      root.classList.add('has-agegate');
+      gate.hidden = false;
+      var yesBtn = $('[data-age="yes"]', gate), noBtn = $('[data-age="no"]', gate), declined = $('.agegate__declined', gate), remember = $('[data-age-remember]', gate);
+      var focusables = function () { return $$('button, input', gate).filter(function (el) { return !el.disabled && el.offsetParent !== null; }); };
+      if (yesBtn) yesBtn.focus();
+      gate.addEventListener('keydown', function (e) {
+        if (e.key !== 'Tab') return;
+        var f = focusables(); if (!f.length) return;
+        var first = f[0], last = f[f.length - 1];
+        if (e.shiftKey && doc.activeElement === first) { e.preventDefault(); last.focus(); }
+        else if (!e.shiftKey && doc.activeElement === last) { e.preventDefault(); first.focus(); }
+      });
+      if (yesBtn) yesBtn.addEventListener('click', function () {
+        try { sessionStorage.setItem(gKey, 'yes'); } catch (e) {   }
+        if (remember && remember.checked) { try { localStorage.setItem(gKey, String(Date.now() + gDays * 864e5)); } catch (e) {   } }
+        gate.hidden = true;
+        root.classList.remove('has-agegate');
+        behind.forEach(function (el) { el.removeAttribute('inert'); });
+        if (before && before.focus && before !== doc.body) before.focus(); else { var m = $('#main'); if (m) m.focus({ preventScroll: true }); }
+      });
+      if (noBtn) noBtn.addEventListener('click', function () { if (declined) declined.hidden = false; });
+    }
+  }
+  })();
   var header = $('[data-header]');
   if (header) {
     var ticking = false;

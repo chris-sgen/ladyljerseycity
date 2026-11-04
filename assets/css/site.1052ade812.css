@@ -2117,6 +2117,20 @@ body::before {
   .hero__copy, .footer__top { background: none; border: 0; box-shadow: none; padding: 0; }
   * { -webkit-backdrop-filter: none !important; backdrop-filter: none !important; }
 }
+.agegate { position: fixed; inset: 0; z-index: 120; display: grid; place-items: center; padding: var(--gutter); background: var(--g-veil-60); -webkit-backdrop-filter: blur(10px) saturate(140%); backdrop-filter: blur(10px) saturate(140%); overflow-y: auto; overscroll-behavior: contain; }
+.agegate[hidden] { display: none; }
+html.has-agegate, html.has-agegate body { overflow: hidden; }
+.agegate__panel { position: relative; width: min(100%, 30rem); padding: clamp(1.75rem, 1.2rem + 2.4vw, 2.75rem) clamp(1.25rem, 0.8rem + 2.4vw, 2.5rem) clamp(1.5rem, 1rem + 2vw, 2.25rem); text-align: center; background-color: var(--g-white-95); background-image: var(--glass-sheen); border: 1px solid var(--glass-edge); border-radius: calc(var(--glass-r) + 4px); box-shadow: var(--glass-shadow-lift); }
+.agegate__mark { display: grid; place-items: center; width: 4.5rem; height: 4.5rem; margin: 0 auto 1.25rem; border-radius: 50%; background: var(--night); box-shadow: 0 0 0 5px var(--sun), 0 0 0 10px var(--coral-soft), 0 0 0 12px var(--grape); }
+.agegate__mark::before { content: ""; width: 2.1rem; height: 2.1rem; background: var(--sun); -webkit-mask: var(--sparkle-mask) center / contain no-repeat; mask: var(--sparkle-mask) center / contain no-repeat; }
+.agegate__q { font-size: clamp(1.3rem, 1.1rem + 0.9vw, 1.7rem); line-height: 1.2; color: var(--ink); }
+.agegate__answers { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; margin-top: 1.5rem; }
+.agegate__answers .btn { justify-content: center; text-align: center; min-height: 3.25rem; }
+.agegate__remember { display: inline-flex; align-items: center; justify-content: center; gap: 0.55rem; min-height: 2.75rem; margin-top: 0.9rem; font-size: var(--t-sm); font-weight: 600; color: var(--text); cursor: pointer; }
+.agegate__remember input { width: 1.2rem; height: 1.2rem; margin: 0; accent-color: var(--plum); }
+.agegate__declined { margin-top: 0.75rem; font-weight: 800; color: var(--coral-ink); }
+@media (prefers-reduced-transparency: reduce) { .agegate { -webkit-backdrop-filter: none; backdrop-filter: none; } .agegate__panel { background: var(--white); } }
+@media print { .agegate { display: none !important; } }
 @media print {
   .site-header, .drawer, .actionbar, .visit__map, .topline, .footer__social, .toc, .hero__media, .skip { display: none !important; }
   body { font-size: 11pt; color: var(--night); background: var(--white); }
